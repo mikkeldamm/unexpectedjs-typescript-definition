@@ -16,6 +16,6 @@ describe('test unexpected expectations:', () => {
     it('<strings>', () => {
 
         expect('mikkel d3mm.', 'to match', /d+.?/gi);
-        expect('mikke', 'to have length', 2);
+        expect('mikke', 'to have length', 5);
     });
 });
