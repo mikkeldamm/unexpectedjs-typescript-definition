@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "preinstall": "./node_modules/.bin/typing install",
     "pretest": "./node_modules/.bin/tsc",
     "test": "mocha src/"
   },
